@@ -1,6 +1,9 @@
 package karaage;
 
 import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -27,10 +30,27 @@ public class TestServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		
+		//response.getWriter().append("Served at: ").append(request.getContextPath());
+		
+		
 		String testjsp = "minitest.jsp";
 		request.setCharacterEncoding("UTF-8");
 		
-		//RequestDispatcher dispatch = request.getRequestDispatcher(testjsp);
+		RequestDispatcher dispatch = request.getRequestDispatcher(testjsp);
+		dispatch.forward(request,response);
+		response.setContentType("text/html; charset=Shift_JIS");
+		
+		
+		//String handselect = request.getParameter("janken");//[6]
+        //PrintWriter out = response.getWriter();//[7]
+       // out.println("<html><head></head><body>");//[8]
+       // out.println("<p>" + handselect + "です。</p>");//[9]
+       // out.println("</body></html>");//[12]
+		
+		
+		
+		
 	}
 
 	/**
