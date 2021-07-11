@@ -29,27 +29,22 @@ public class TestServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		
-		//response.getWriter().append("Served at: ").append(request.getContextPath());
-		
-		
-		String testjsp = "minitest.jsp";
+		String testjsp = "Minitest.jsp";
 		request.setCharacterEncoding("UTF-8");
-		
+		response.setContentType("text/html; charset=Shift_JIS");
 		RequestDispatcher dispatch = request.getRequestDispatcher(testjsp);
 		dispatch.forward(request,response);
-		response.setContentType("text/html; charset=Shift_JIS");
 		
-		if(testjsp==2) {
+		//if(testjsp==2) {
 			//String handselect = request.getParameter("janken");//[6]
 	        //PrintWriter out = response.getWriter();//[7]
 	       // out.println("<html><head></head><body>");//[8]
 	       // out.println("<p>" + handselect + "です。</p>");//[9]
 	       // out.println("</body></html>");//[12]
 			
-			String kaitoujsp ="kaitou.jsp";
-		}
+			//String kaitoujsp ="kaitou.jsp";
+		//}
 		
 	}
 
