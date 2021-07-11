@@ -19,7 +19,10 @@
 お菓子の個数 × 確率 の話を求めるため、<br>
 1 * 1/3 + 2 * 1/3 + 3 * 1/3 = 2<br>
 したがって、平均して２個のお菓子を食べることができるということになる。<br>
-<button type="re_button" onclick="http://localhost:8080/karaagekun/Minitest.jsp">戻る</button>
-<button type=“next_button” onclick="http://localhost:8080/karaagekun/Minitest2.jsp">次の問題へ</button>
+
+<input type="button" onclick="location.href='Minitest.jsp'"value="戻る">
+<input type="button" onclick="location.href='Minitest2.jsp'"value="次の問題へ">
+<!-- <button type="re_button" onclick="http://localhost:8080/karaagekun/Minitest.jsp">戻る</button>-->
+<!-- <button type=“next_button” onclick="http://localhost:8080/karaagekun/Minitest2.jsp">次の問題へ</button>-->
 </body>
 </html>

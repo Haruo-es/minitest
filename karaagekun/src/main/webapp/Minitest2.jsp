@@ -22,8 +22,11 @@ A、B、C、Dの４人がいます。<br>
 　　　　<p>解答：<br>
 　　　　<input type="text" name="name" size="15"></p>
 </form>
-<button type=“ans_button2” onclick="http://localhost:8080/karaagekun/kaitou2.jsp">解説</button>
-<button type=“next_button2” onclick="http://localhost:8080/karaagekun/Minitest3.jsp">次の問題へ</button>
+
+<input type="button" onclick="location.href='kaitou2.jsp'"value="解説">
+<input type="button" onclick="location.href='Minitest3.jsp'"value="次の問題へ">
+<!--<button type=“ans_button2” onclick="http://localhost:8080/karaagekun/kaitou2.jsp">解説</button>-->
+<!-- <button type=“next_button2” onclick="http://localhost:8080/karaagekun/Minitest3.jsp">次の問題へ</button>-->
 <p>
 
 <p>
