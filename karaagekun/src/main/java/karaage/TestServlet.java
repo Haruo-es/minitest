@@ -41,15 +41,15 @@ public class TestServlet extends HttpServlet {
 		dispatch.forward(request,response);
 		response.setContentType("text/html; charset=Shift_JIS");
 		
-		
-		//String handselect = request.getParameter("janken");//[6]
-        //PrintWriter out = response.getWriter();//[7]
-       // out.println("<html><head></head><body>");//[8]
-       // out.println("<p>" + handselect + "です。</p>");//[9]
-       // out.println("</body></html>");//[12]
-		
-		
-		
+		if(testjsp==2) {
+			//String handselect = request.getParameter("janken");//[6]
+	        //PrintWriter out = response.getWriter();//[7]
+	       // out.println("<html><head></head><body>");//[8]
+	       // out.println("<p>" + handselect + "です。</p>");//[9]
+	       // out.println("</body></html>");//[12]
+			
+			String kaitoujsp ="kaitou.jsp";
+		}
 		
 	}
 
