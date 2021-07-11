@@ -19,8 +19,11 @@
     <p>解答：<br>
     <input type="text" name="name" size="15"></p>
 </form>
-<button type=“ans_button” onclick="http://localhost:8080/karaagekun/kaitou.jsp">解説</button>
-<button type=“next_button” onclick="http://localhost:8080/karaagekun/Minitest2.jsp">次の問題へ</button>
+
+<input type="button" onclick="location.href='kaitou.jsp'"value="解説">
+<input type="button" onclick="location.href='Minitest2.jsp'"value="次の問題へ">
+<!--<button type=“ans_button” onclick="karaagekun/kaitou.jsp">解説</button>-->
+<!-- <button type=“next_button” onclick="http://localhost:8080/karaagekun/Minitest2.jsp">次の問題へ</button>-->
 <p>
 
 <p>

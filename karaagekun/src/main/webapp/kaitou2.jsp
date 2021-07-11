@@ -25,7 +25,10 @@ Bの身長は、641 - 484 = 157cm<br>
 Cの身長は、641 - 473 = 168cm<br>
 Dの身長は、641 - 486 = 155cm<br>
 したがって、最も身長が高い人は、「Cの168cm」である。<br>
-<button type="re_button2" onclick="http://localhost:8080/karaagekun/Minitest2.jsp">戻る</button>
-<button type=“next_button2” onclick="http://localhost:8080/karaagekun/Minitest3.jsp">次の問題へ</button>
+
+<input type="button" onclick="location.href='Minitest2.jsp'"value="戻る">
+<input type="button" onclick="location.href='Minitest3.jsp'"value="次の問題へ">
+<!--<button type="re_button2" onclick="http://localhost:8080/karaagekun/Minitest2.jsp">戻る</button>-->
+<!-- <button type=“next_button2” onclick="http://localhost:8080/karaagekun/Minitest3.jsp">次の問題へ</button>-->
 </body>
 </html>
