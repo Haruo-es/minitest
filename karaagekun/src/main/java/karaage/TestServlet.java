@@ -30,7 +30,7 @@ public class TestServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		String testjsp = "Minitest.jsp";
+		String testjsp = "HomePage.jsp";
 		request.setCharacterEncoding("UTF-8");
 		response.setContentType("text/html; charset=Shift_JIS");
 		RequestDispatcher dispatch = request.getRequestDispatcher(testjsp);

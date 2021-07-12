@@ -12,7 +12,8 @@ request.setCharacterEncoding("Shift_JIS");
 </head>
 <body>
 <h3>答え</h3>
-<p><p>
+<p>
+<p>
 <% 
     request.setCharacterEncoding("UTF-8");
     String kaitou = request.getParameter("kaitou4");
