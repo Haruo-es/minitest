@@ -2,12 +2,17 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
+<%
+request.setCharacterEncoding("Shift_JIS");
+%>
 <head>
 <meta charset="UTF-8">
 <title>answer2</title>
 </head>
 <body>
 <h3>答え</h3>
+<p>あなたの答え<p>
+<%= request.getParameter("name") %><br>
 <p>
 答えは「C 168cm」です。<br>
 <p>
