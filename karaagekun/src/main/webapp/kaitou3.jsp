@@ -7,6 +7,7 @@ request.setCharacterEncoding("Shift_JIS");
 %>
 <head>
 <meta charset="UTF-8">
+<link rel = "stylesheet" href ="css/style.css">
 <title>answer3</title>
 </head>
 <body>
