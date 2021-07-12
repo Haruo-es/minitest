@@ -15,12 +15,12 @@
 また、今度は船が下流から上流へ同様の速度で進んだ時、何分かかるでしょうか。<br>
 川の流れは毎分15mであるとします。<br>
 <p>
-<form action="#" method="post">
-    <p>解答：<br>
-    <input type="text" name="name" size="15"></p>
+<form action="kaitou3.jsp" method="post">
+            解答：<input type="text" name="kaitou3"><br><p>
+                    <input type="submit" value="解答">
 </form>
 
-<input type="button" onclick="location.href='kaitou3.jsp'"value="解説">
+<!--<input type="button" onclick="location.href='kaitou3.jsp'"value="解説">-->
 <input type="button" onclick="location.href='Minitest4.jsp'"value="次の問題へ">
 <!--<button type=“ans_button” onclick="karaagekun/kaitou.jsp">解説</button>-->
 <!-- <button type=“next_button” onclick="http://localhost:8080/karaagekun/Minitest2.jsp">次の問題へ</button>-->

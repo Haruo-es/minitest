@@ -16,12 +16,12 @@ Aは20m差でBに勝ち、Bは40m差でCに勝ちました。<br>
 この時、AとCが競争すると、Aは何m差でCに勝つでしょうか。<br>
 ヒント：60m差ではありません！<br>
 <p>
-<form action="#" method="post">
-    <p>解答：<br>
-    <input type="text" name="name" size="15"></p>
+<form action="kaitou4.jsp" method="post">
+            解答：<input type="text" name="kaitou4"><br><p>
+                    <input type="submit" value="解答">
 </form>
 
-<input type="button" onclick="location.href='kaitou3.jsp'"value="解説">
+<!--<input type="button" onclick="location.href='kaitou3.jsp'"value="解説">-->
 <input type="button" onclick="location.href='Minitest4.jsp'"value="次の問題へ">
 <!--<button type=“ans_button” onclick="karaagekun/kaitou.jsp">解説</button>-->
 <!-- <button type=“next_button” onclick="http://localhost:8080/karaagekun/Minitest2.jsp">次の問題へ</button>-->
