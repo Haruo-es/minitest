@@ -1,8 +1,15 @@
 @charset "UTF-8";
-a{
-	font-size: 30px;
-	background-color: purple;
-	color: pink;
-	text-align: center;
-	
+body {
+    background: #FFC0CB;
+}
+h2{
+	background:#dda0dd;
+	color:#ffffff;
+}
+h3{
+	background:#dda0dd;
+	color:#ffffff;
+}
+h4{
+	color: #333131;
 }

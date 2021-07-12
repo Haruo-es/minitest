@@ -2,18 +2,14 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-<%
-request.setCharacterEncoding("Shift_JIS");
-%>
 <head>
 <meta charset="UTF-8">
-<link rel = "stylesheet" href ="css/style.css">
+<link rel = "stylesheet" href ="style.css">
 <title>answer</title>
 </head>
 <body>
 <h3>答え</h3>
-<p>
-<p>
+
 <% 
     request.setCharacterEncoding("UTF-8");
     String kaitou = request.getParameter("kaitou4");
@@ -23,9 +19,9 @@ request.setCharacterEncoding("Shift_JIS");
     else {out.print("残念！");}
 %><br>
 <p>
-答えは「56m」です。<br>
+答えは「56m」です。</p>
+<h4>解説</h4>
 <p>
-<h4>解説</h4><br>
 これは、単純にそれぞれの距離の差を足せば終わりではありません。<br>
 それぞれの距離の差は競争が始まった時から開き始めているので、<br>
 それぞれが同じ時間内でどれだけ走ったのか、割合で考えなくてはなりません。<br>
@@ -37,7 +33,7 @@ request.setCharacterEncoding("Shift_JIS");
 この２つを組み合わせると、Aが200m走った時に、Cは144m走ったことになります。<br>
 よって、AとCの距離の差は、<br>
 200 - 144 = 56m<br>
-したがって、AとCの走った距離の差は「56m」となります。<br>
+したがって、AとCの走った距離の差は「56m」となります。</p>
 <input type="button" onclick="location.href='Minitest4.jsp'"value="戻る">
 <input type="button" onclick="location.href='Minitest5.jsp'"value="次の問題へ">
 <!--<button type="re_button2" onclick="http://localhost:8080/karaagekun/Minitest2.jsp">戻る</button>-->

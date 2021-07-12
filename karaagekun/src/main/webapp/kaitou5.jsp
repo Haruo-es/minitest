@@ -4,13 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel = "stylesheet" href ="css/style.css">
+<link rel = "stylesheet" href ="style.css">
 <title>answer</title>
+
 </head>
 <body>
 <h3>答え</h3>
-<p>
-<p>
 <% 
     request.setCharacterEncoding("UTF-8");
     String kaitou5 = request.getParameter("kaitou5");
@@ -20,9 +19,9 @@
     else {out.print("残念！");}
 %>
 <p>
-答えは「10/49」です。<br>
-<p>
-<h4>解説</h4><br>
+答えは「10/49」です。
+</p>
+<h4>解説</h4><p>
 はじめに引いた１枚は、マークがわからない状態だったので、一旦置いておきます。<br>
 次に引いた３枚はどれもハートマークだったので、その３枚を全体から引くと49枚となります。<br>
 49枚の内訳は、<br>
@@ -32,7 +31,7 @@
 クローバー：13枚<br>
 このとき、箱の中にある１枚が同じマークのハートである確率を求めるので、<br>
 確率は10/49となります。<br>
-<P>
+</p>
 <input type="button" onclick="location.href='Minitest5.jsp'"value="戻る">
 <input type="button" onclick="location.href='HomePage.jsp'"value="ホームページへ戻る">
 </body>
