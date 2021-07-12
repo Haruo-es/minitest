@@ -12,8 +12,15 @@ request.setCharacterEncoding("Shift_JIS");
 </head>
 <body>
 <h3>答え</h3>
-<p>あなたの答え<p>
-<%= request.getParameter("name") %><br>
+<p><p>
+<% 
+    request.setCharacterEncoding("UTF-8");
+    String kaitou = request.getParameter("kaitou4");
+    request.setAttribute("submit",kaitou);
+    String x = "56";
+    if(kaitou.equals(x)){out.print("正解です！");}
+    else {out.print("残念！");}
+%><br>
 <p>
 答えは「56m」です。<br>
 <p>

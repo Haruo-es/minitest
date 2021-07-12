@@ -19,12 +19,12 @@ A、B、C、Dの４人がいます。<br>
 ・A、B、Dの３人の身長の合計は473cm<br>
 ・A、C、Dの３人の身長の合計は484cm<br>
 <p>
-<form action="#" method="post">
-　　　　<p>解答：<br>
-　　　　<input type="text" name="name" size="15"></p>
+<form action="kaitou2.jsp" method="post">
+            解答：<input type="text" name="kaitou2"><br><p>
+                    <input type="submit" value="解答">
 </form>
 
-<input type="button" onclick="location.href='kaitou2.jsp'"value="解説">
+<!-- <input type="button" onclick="location.href='kaitou2.jsp'"value="解説">-->
 <input type="button" onclick="location.href='Minitest3.jsp'"value="次の問題へ">
 <!--<button type=“ans_button2” onclick="http://localhost:8080/karaagekun/kaitou2.jsp">解説</button>-->
 <!-- <button type=“next_button2” onclick="http://localhost:8080/karaagekun/Minitest3.jsp">次の問題へ</button>-->

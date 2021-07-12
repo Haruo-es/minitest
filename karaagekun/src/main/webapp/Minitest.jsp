@@ -19,18 +19,12 @@
 <!--<form action="#" method="post">-->
     <!--<p>解答：<br>-->
     <!--<input type="text" name="kaitou" size="15"></p>-->
-    <form action="kaitou.jsp" method="post">
-            解答：<input type="text" name="kaitou">
+<form action="kaitou.jsp" method="post">
+            解答：<input type="text" name="kaitou1"><br><p>
                     <input type="submit" value="解答">
-    </form>
-    <% 
-    String kaitou = request.getParameter("kaitou");
-    request.setAttribute("submit",kaitou);
-    %>
-    
-<!-- </form>-->
+</form>
 
-<input type="button" onclick="location.href='kaitou.jsp'"value="解説">
+<!--<input type="button" onclick="location.href='kaitou.jsp'"value="解説">-->
 <input type="button" onclick="location.href='Minitest2.jsp'"value="次の問題へ">
 <!--<button type=“ans_button” onclick="karaagekun/kaitou.jsp">解説</button>-->
 <!-- <button type=“next_button” onclick="http://localhost:8080/karaagekun/Minitest2.jsp">次の問題へ</button>-->

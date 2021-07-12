@@ -2,7 +2,6 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-<%String kaitou = (String)request.getAttribute("submit");%>
 <head>
 <meta charset="UTF-8">
 <link rel = "stylesheet" href ="css/style.css">
@@ -10,8 +9,16 @@
 </head>
 <body>
 <h3>答え</h3>
-<p>あなたの答え<p>
-<% out.print(kaitou); %>
+<p>
+<p>
+<% 
+    request.setCharacterEncoding("UTF-8");
+    String kaitou = request.getParameter("kaitou1");
+    request.setAttribute("submit",kaitou);
+    String x = "2";
+    if(kaitou.equals(x)){out.print("正解です！");}
+    else {out.print("残念！");}
+%>
 <p>
 答えは「２」です。<br>
 <p>
