@@ -2,17 +2,16 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-<%
-request.setCharacterEncoding("Shift_JIS");
-%>
+<%String kaitou = (String)request.getAttribute("submit");%>
 <head>
 <meta charset="UTF-8">
+<link rel = "stylesheet" href ="css/style.css">
 <title>answer</title>
 </head>
 <body>
 <h3>答え</h3>
 <p>あなたの答え<p>
-<%= request.getParameter("name") %><br>
+<% out.print(kaitou); %>
 <p>
 答えは「２」です。<br>
 <p>

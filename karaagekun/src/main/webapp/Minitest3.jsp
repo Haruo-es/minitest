@@ -18,7 +18,6 @@
 <form action="#" method="post">
     <p>解答：<br>
     <input type="text" name="name" size="15"></p>
-    <>
 </form>
 
 <input type="button" onclick="location.href='kaitou3.jsp'"value="解説">

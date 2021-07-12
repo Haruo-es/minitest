@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel = "stylesheet" href ="css/style.css">
 <title>mini test</title>
 </head>
 <body>
@@ -15,11 +16,19 @@
 １つ目は１個、２つ目は２個、３つ目は３個入っています。<br>
 さて、あなたは平均で何個のお菓子を食べられるでしょうか。<br>
 <p>
-<form action="#" method="post">
-    <p>解答：<br>
-    <input type="text" name="name" size="15"></p>
-    <>
-</form>
+<!--<form action="#" method="post">-->
+    <!--<p>解答：<br>-->
+    <!--<input type="text" name="kaitou" size="15"></p>-->
+    <form action="kaitou.jsp" method="post">
+            解答：<input type="text" name="kaitou">
+                    <input type="submit" value="解答">
+    </form>
+    <% 
+    String kaitou = request.getParameter("kaitou");
+    request.setAttribute("submit",kaitou);
+    %>
+    
+<!-- </form>-->
 
 <input type="button" onclick="location.href='kaitou.jsp'"value="解説">
 <input type="button" onclick="location.href='Minitest2.jsp'"value="次の問題へ">
