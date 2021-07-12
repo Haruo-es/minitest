@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel = "stylesheet" href ="style.css">
 <title>minitest</title>
 </head>
 <body>
@@ -16,8 +17,8 @@
 すると、３枚ともハートマークのトランプでした。<br>
 このとき、箱の中に入れた１枚が同じマークである確率を求めてください。<br>
 <p>
-<form action="kaitou2.jsp" method="post">
-            解答：<input type="text" name="kaitou2"><br><p>
+<form action="kaitou5.jsp" method="post">
+            解答：<input type="text" name="kaitou5"><br><p>
                     <input type="submit" value="解答">
 </form>
 </body>

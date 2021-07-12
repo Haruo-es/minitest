@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel = "stylesheet" href ="css/style.css">
+<link rel = "stylesheet" href ="style.css">
 <title>mini test</title>
 </head>
 <body>

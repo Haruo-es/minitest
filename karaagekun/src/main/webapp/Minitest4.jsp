@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel = "stylesheet" href ="style.css">
 <title>minitest</title>
 </head>
 <body>
@@ -22,7 +23,7 @@ Aは20m差でBに勝ち、Bは40m差でCに勝ちました。<br>
 </form>
 
 <!--<input type="button" onclick="location.href='kaitou3.jsp'"value="解説">-->
-<input type="button" onclick="location.href='Minitest4.jsp'"value="次の問題へ">
+<input type="button" onclick="location.href='Minitest5.jsp'"value="次の問題へ">
 <!--<button type=“ans_button” onclick="karaagekun/kaitou.jsp">解説</button>-->
 <!-- <button type=“next_button” onclick="http://localhost:8080/karaagekun/Minitest2.jsp">次の問題へ</button>-->
 <p>
