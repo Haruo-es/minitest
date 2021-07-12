@@ -4,16 +4,16 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>mini test</title>
+<title>Insert title here</title>
 </head>
 <body>
 <h3>ミニテスト</h3>
 <p>
 <h4>問題</h4>
-あなたの目の前に、３つのお菓子が入っている袋があります。<br>
-見た目はどれも同じですが、中に入っているお菓子の個数が違います。<br>
-１つ目は１個、２つ目は２個、３つ目は３個入っています。<br>
-さて、あなたは平均で何個のお菓子を食べられるでしょうか。<br>
+とある船が、川を上流から下流、下流から上流と往復しようとしています。<br>
+船が上流から下流に毎分50mで進む時、35分かかりました。<br>
+また、今度は船が下流から上流へ同様の速度で進んだ時、何分かかるでしょうか。<br>
+川の流れは毎分15mであるとします。<br>
 <p>
 <form action="#" method="post">
     <p>解答：<br>
@@ -21,14 +21,12 @@
     <>
 </form>
 
-<input type="button" onclick="location.href='kaitou.jsp'"value="解説">
-<input type="button" onclick="location.href='Minitest2.jsp'"value="次の問題へ">
+<input type="button" onclick="location.href='kaitou3.jsp'"value="解説">
+<input type="button" onclick="location.href='Minitest4.jsp'"value="次の問題へ">
 <!--<button type=“ans_button” onclick="karaagekun/kaitou.jsp">解説</button>-->
 <!-- <button type=“next_button” onclick="http://localhost:8080/karaagekun/Minitest2.jsp">次の問題へ</button>-->
 <p>
 
 <p>
-
-		
 </body>
 </html>
